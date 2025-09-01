@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path.cwd().parent / "src"))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Fiction Tools'
+project = 'Writing Tools'
 copyright = '2025, S.Lott'
 author = 'S.Lott'
 release = '1.0'

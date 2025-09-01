@@ -1,4 +1,4 @@
-# Fiction writing tools
+# Writing tools for TTRPG or Literature
 
 These are not polished, finished, stand-alone applications.
 These are frameworks you can customize for the fiction you're working on.
