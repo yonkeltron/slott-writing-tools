@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# PyCharm
+.idea/*
+
+# Virtual environments
+.venv
+/notebooks/Untitled.ipynb
+/notebooks/.ipynb_checkpoints/*.ipynb
+/docs/_build/doctrees/*
