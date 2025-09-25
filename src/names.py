@@ -7,12 +7,12 @@ http://www.talkenglish.com/vocabulary/top-1500-nouns.aspx
 import random
 import re
 
-from typing import Generator
+from typing import Iterator
 
 from data.words import words
 
 
-def corpus_iter() -> Generator[str]:
+def corpus_iter() -> Iterator[str]:
     word_pat = re.compile(r"(\w+)\s+(\d+)\s+\(([\w,]+)\)")
     lines = filter(None, words.splitlines())
     matches = filter(None, (word_pat.match(line) for line in lines))
