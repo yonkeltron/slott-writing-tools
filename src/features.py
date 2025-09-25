@@ -1,5 +1,5 @@
 """
-Features and descriptions of characters
+Features and descriptions of characters.
 """
 
 import random

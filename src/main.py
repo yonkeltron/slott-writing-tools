@@ -1,3 +1,9 @@
+"""
+Main UI/interaction code and definitions for the Command-Line Interface (CLI).
+
+Does its best to use Typer and Rich to separate out core logic from console display, etc.
+"""
+
 from sys import stderr
 from typing import Annotated
 
@@ -12,10 +18,16 @@ app = typer.Typer(no_args_is_help=True)
 
 
 def eprint(*args, **kwargs) -> None:
+    """
+    Print only to stderr.
+    """
     print(*args, file=stderr, **kwargs)
 
 
 def highlight_list_items(items: list[str], *, color: str = "green") -> str:
+    """
+    Highlights list items using Rich terminal color markup.
+    """
     highlighted = map(lambda s: f"[{color}]{s}[/]", items)
 
     return ", ".join(highlighted)

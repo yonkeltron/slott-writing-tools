@@ -1,3 +1,11 @@
+"""
+Frequency/Type table for words used within writing tools.
+
+Table has three-column structure of:
+
+'Word Frequency Type'
+"""
+
 words = """\
 Word	Frequency	Type
 people	372		(noun)
